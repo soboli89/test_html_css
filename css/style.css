@@ -147,7 +147,7 @@
     width: 32.5%;
     background-size: contain;
     background-blend-mode: darken;
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/images/Photo.png');
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/images/MaskGroup.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -341,7 +341,7 @@
 }
 
 .catalogue-block-item-2 {
-    background-image: url('../images/spetsii 2.svg');
+    background-image: url('../images/spetsii2.svg');
 }
 
 .catalogue-block-item-3 {
