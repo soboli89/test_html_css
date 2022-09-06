@@ -1,1131 +1,1128 @@
-                        * {
-                            margin: 0;
-                            padding: 0;
-                            font-family: 'proxima-nova', sans-serif;
-                            font-style: normal;
-                        }
-                        
-                        .wrapper {
-                            width: 100%;
-                        }
-                        
-                        .header-info {
-                            display: flex;
-                            justify-content: space-around;
-                            padding: 2vw;
-                        }
-                        
-                        .header-logo {
-                            font-weight: 600;
-                            font-size: 1.9vw;
-                        }
-                        
-                        .header-search input {
-                            background-color: #F5F5F5;
-                            border: none;
-                            align-items: center;
-                            width: 100%;
-                            height: 3vw;
-                            position: relative;
-                        }
-                        
-                        .header-input {
-                            display: flex;
-                            align-items: center;
-                            justify-content: space-around;
-                            width: 50%;
-                            text-indent: 5%;
-                        }
-                        
-                        .header-search input {
-                            font-size: 1.2vw;
-                            line-height: 1.8vw;
-                            /* identical to box height */
-                            display: flex;
-                            align-items: center;
-                            color: #333333;
-                        }
-                        
-                        .header-search img {
-                            width: 1.8vw;
-                            position: absolute;
-                            top: 2.7vw;
-                            left: 43.5vw;
-                        }
-                        
-                        .header-search {
-                            width: 60%;
-                        }
-                        
-                        .header-contacts {
-                            display: flex;
-                            justify-content: space-evenly;
-                            width: 50%;
-                            align-items: center;
-                        }
-                        
-                        .header-phone {
-                            font-size: 1.7vw;
-                            color: #585858;
-                            font-weight: 400;
-                            width: 30%;
-                        }
-                        
-                        .header-enter {
-                            display: flex;
-                            justify-content: space-evenly;
-                            width: 40%;
-                        }
-                        
-                        .header-phone-text {
-                            font-size: 1.1vw;
-                            font-weight: 400;
-                            color: #585858;
-                            width: 35%;
-                            border-left: solid 0.06vw #C4C4C4;
-                            padding-left: 4%;
-                        }
-                        
-                        .header-login {
-                            display: flex;
-                            justify-content: space-evenly;
-                            width: 40%;
-                            font-size: 1.3vw;
-                        }
-                        
-                        .header-login-image img {
-                            width: 1.7vw;
-                        }
-                        
-                        .header-language-image img {
-                            width: 1vw;
-                        }
-                        
-                        .header-language {
-                            display: flex;
-                            justify-content: space-evenly;
-                            width: 25%;
-                            align-items: center;
-                        }
-                        
-                        .header-language-text {
-                            font-size: 1.3vw;
-                            text-decoration: underline;
-                        }
-                        
-                        .header-language img {
-                            margin: auto;
-                            display: block;
-                        }
-                        
-                        .header-menu {
-                            display: flex;
-                            justify-content: space-around;
-                            font-weight: 600;
-                            font-size: 1.1vw;
-                            background-color: #F5F5F5;
-                            height: 5vw;
-                            align-items: center;
-                            line-height: 152.25%;
-                        }
-                        /* .header-menu img {
-        width: 2.5vw;
-    } */
-                        
-                        .menu-item-image {
-                            width: 1vw;
-                        }
-                        
-                        .header-menu a {
-                            color: #333333;
-                            text-decoration: none;
-                        }
-                        
-                        .main {
-                            display: flex;
-                            height: 45.5vw;
-                        }
-                        
-                        .main-item-first {
-                            width: 32.5%;
-                            background-size: contain;
-                            background-blend-mode: darken;
-                            background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/images/Photo.png');
-                            background-repeat: no-repeat;
-                            background-size: 100% 100%;
-                        }
-                        
-                        .main-item-second {
-                            width: 35%;
-                            background-image: url('/images/Слой 1.svg');
-                            background-size: contain;
-                            background-repeat: no-repeat;
-                            background-size: 100%;
-                        }
-                        
-                        .main-item-third {
-                            width: 32.5%;
-                            background-size: contain;
-                            background-blend-mode: darken;
-                            background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/images/Bulgur.png');
-                            background-repeat: no-repeat;
-                            background-size: 100% 100%;
-                        }
-                        
-                        .main-item-first-block {
-                            text-align: center;
-                            color: #FFFFFF;
-                            width: 80%;
-                            margin: auto;
-                            vertical-align: baseline;
-                            padding-top: 40%;
-                        }
-                        
-                        .main-item-first-title {
-                            font-weight: 700;
-                            font-size: 2.3vw;
-                        }
-                        
-                        .main-item-first-price {
-                            padding-top: 15%;
-                            font-size: 1.8vw;
-                            font-weight: 700;
-                            width: 100%;
-                        }
-                        
-                        .main-item-first-block button {
-                            width: 85%;
-                            color: #FFFFFF;
-                            padding-top: 1vw;
-                            padding-bottom: 1vw;
-                            margin-top: 3vw;
-                            background-color: Transparent;
-                            border: 0.3vw solid #FFFFFF;
-                            font-weight: 700;
-                            font-size: 1.9vw;
-                        }
-                        
-                        .main-item-third-block {
-                            text-align: center;
-                            color: #FFFFFF;
-                            width: 80%;
-                            margin: auto;
-                            vertical-align: baseline;
-                            padding-top: 40%;
-                        }
-                        
-                        .main-item-third-title {
-                            font-weight: 700;
-                            font-size: 2.3vw;
-                        }
-                        
-                        .main-item-third-price {
-                            padding-top: 15%;
-                            font-size: 1.8vw;
-                            font-weight: 700;
-                            width: 100%;
-                        }
-                        
-                        .main-item-third-block button {
-                            width: 85%;
-                            color: #FFFFFF;
-                            padding-top: 1vw;
-                            padding-bottom: 1vw;
-                            margin-top: 3vw;
-                            background-color: Transparent;
-                            border: 0.3vw solid #FFFFFF;
-                            font-weight: 700;
-                            font-size: 1.9vw;
-                        }
-                        
-                        .main-item-second-title-block {
-                            text-align: center;
-                        }
-                        
-                        .main-item-second-title-block-header {
-                            font-size: 2.8vw;
-                            font-weight: 700;
-                            margin-top: 5vw;
-                        }
-                        
-                        .main-item-second-title-block-info {
-                            color: #585858;
-                            font-weight: 600;
-                            font-size: 1.5vw;
-                            font-style: normal;
-                            margin-top: 0.6vw;
-                            letter-spacing: 0.06em;
-                        }
-                        
-                        .main-item-second-list-header {
-                            margin: auto;
-                            margin-top: 3vw;
-                            width: 65%;
-                            font-weight: 700;
-                            font-size: 2vw;
-                            letter-spacing: 0.06em;
-                            text-transform: uppercase;
-                            color: #3E6E00;
-                            text-align: center;
-                            border-top: 0.2vw solid;
-                            padding-top: 3vw;
-                        }
-                        
-                        .main-item-second-list-item {
-                            text-align: center;
-                            font-weight: 400;
-                            font-size: 1.5vw;
-                            letter-spacing: 0.06em;
-                            text-transform: uppercase;
-                            color: #000000;
-                            margin-top: 2vw;
-                        }
-                        
-                        .main-item-second-list-item li {
-                            padding-top: 1.3vw;
-                        }
-                        
-                        .catalogue-title {
-                            margin-left: 15%;
-                            margin-bottom: 5%;
-                            width: 70vw;
-                            font-weight: 400;
-                            font-size: 4.5vw;
-                            align-items: center;
-                            text-align: center;
-                            letter-spacing: 0.06em;
-                            color: #363637;
-                            border-bottom: 0.2vw solid #3E6E00;
-                        }
-                        
-                        .catalogue {
-                            margin-bottom: 7%;
-                        }
-                        
-                        .catalogue-header {
-                            display: flex;
-                            margin-top: 7%;
-                        }
-                        
-                        .catalogue-header-image {
-                            margin-left: 7%;
-                        }
-                        
-                        .catalogue-header-image img {
-                            width: 7vw;
-                        }
-                        
-                        .catalogue-block {
-                            width: 98%;
-                            margin-top: 1.4%;
-                            padding: 0 1% 0 1%;
-                            height: 22vw;
-                            display: flex;
-                            justify-content: space-between;
-                        }
-                        
-                        .catalogue-block-item-1,
-                        .catalogue-block-item-2,
-                        .catalogue-block-item-3,
-                        .catalogue-block-item-4,
-                        .catalogue-block-item-5,
-                        .catalogue-block-item-6,
-                        .catalogue-block-item-7,
-                        .catalogue-block-item-8 {
-                            width: 24%;
-                            height: 100%;
-                            background-repeat: no-repeat;
-                            background-size: 100%;
-                            position: relative;
-                        }
-                        
-                        .catalogue-block-item-1 {
-                            background-image: url('/images/spetii.svg');
-                        }
-                        
-                        .catalogue-block-item-2 {
-                            background-image: url('/images/spetsii 2.svg');
-                        }
-                        
-                        .catalogue-block-item-3 {
-                            background-image: url('/images/spetsii 3.svg');
-                        }
-                        
-                        .catalogue-block-item-4 {
-                            background-image: url('/images/spetsii 4.svg');
-                        }
-                        
-                        .catalogue-block-item-5 {
-                            background-image: url('/images/spetsii 5.svg');
-                        }
-                        
-                        .catalogue-block-item-6 {
-                            background-image: url('/images/spetsii 6.svg');
-                        }
-                        
-                        .catalogue-block-item-7 {
-                            background-image: url('/images/spetsii 7.svg');
-                        }
-                        
-                        .catalogue-block-item-8 {
-                            background-image: url('/images/spetsii 8.svg');
-                        }
-                        
-                        .catalogue-item-text {
-                            position: absolute;
-                            background-color: #FFFFFF;
-                            top: 80%;
-                            width: 100%;
-                            text-align: center;
-                            font-weight: 600;
-                            font-size: 1.5vw;
-                            text-transform: uppercase;
-                            color: #333333;
-                            padding-top: 0.3vw;
-                            padding-bottom: 0.3vw;
-                        }
-                        
-                        .popular-goods {
-                            background: #F5F5F5;
-                            padding-bottom: 5vw;
-                        }
-                        
-                        .popular-goods-item-price p span {
-                            font-size: 2vw;
-                        }
-                        
-                        .popular-goods-item-sellprice p span {
-                            font-size: 2vw;
-                        }
-                        
-                        .popular-goods-item-regularprice p span {
-                            font-size: 1.5vw;
-                        }
-                        
-                        .popular-goods-title {
-                            display: flex;
-                            justify-content: space-between;
-                            font-weight: 400;
-                            font-size: 4.5vw;
-                            align-items: center;
-                            text-transform: uppercase;
-                            color: #333333;
-                            padding-top: 5%;
-                            padding-left: 3.5vw;
-                            padding-right: 2vw;
-                        }
-                        
-                        .popular-goods-title img {
-                            width: 1.5vw;
-                        }
-                        
-                        .popular-goods hr {
-                            border: 0.06vw solid #3E6E00;
-                            margin-left: 30%;
-                            margin-top: 2vw;
-                            margin-bottom: 2vw;
-                        }
-                        
-                        .popular-goods-title p {
-                            width: 90%;
-                        }
-                        
-                        .popular-catalogue {
-                            display: flex;
-                            justify-content: space-between;
-                        }
-                        
-                        .popular-goods-item {
-                            width: 23%;
-                            background-color: #FFFFFF;
-                            align-items: center;
-                            text-align: center;
-                            padding-bottom: 2vw;
-                        }
-                        
-                        .popular-goods-item-title {
-                            font-weight: 700;
-                            font-size: 1.8vw;
-                            text-align: center;
-                            color: #333333;
-                            padding-top: 2vw;
-                        }
-                        
-                        .popular-goods-item-image {
-                            background-image: url('/images/gir4.png');
-                            background-repeat: no-repeat;
-                            background-size: contain;
-                            background-size: 100%;
-                            height: 15vw;
-                            position: relative;
-                            overflow: hidden;
-                        }
-                        
-                        .popular-goods-item-image p {
-                            background-color: #FFFFFF;
-                            transform: rotate(-45deg);
-                            text-align: center;
-                            width: 50%;
-                            left: -10%;
-                            top: 17%;
-                            font-size: 1.5vw;
-                            position: absolute;
-                        }
-                        
-                        .popular-goods-item-favourites {
-                            background: rgba(255, 255, 255, 0.6);
-                            align-items: center;
-                            width: 2vw;
-                            align-items: center;
-                            margin-right: 1vw;
-                            margin-left: auto;
-                            margin-top: 1vw;
-                            padding: 3%;
-                        }
-                        
-                        .popular-goods-item-favourites img {
-                            display: block;
-                            width: 100%;
-                        }
-                        
-                        .popular-goods-item-price {
-                            font-weight: 700;
-                            font-size: 1.2vw;
-                            line-height: 1.3vw;
-                            text-align: center;
-                            color: #3E6E00;
-                            margin-top: 1.9vw;
-                        }
-                        
-                        .popular-goods-item-sellprice {
-                            font-weight: 700;
-                            font-size: 1.2vw;
-                            line-height: 1.3vw;
-                            text-align: center;
-                            color: #F23030;
-                            margin-top: 0.7vw;
-                        }
-                        
-                        .popular-goods-item-regularprice {
-                            margin-top: 0.5vw;
-                            font-weight: 400;
-                            font-size: 1.2vw;
-                            line-height: 1.2vw;
-                            text-decoration-line: line-through;
-                        }
-                        
-                        .popular-goods-item button {
-                            font-weight: 400;
-                            font-size: 1.2vw;
-                            line-height: 2vw;
-                            color: #585858;
-                            width: 13vw;
-                            background-color: #FFFFFF;
-                            border: 0.08vw solid #585858;
-                            padding-top: 0.3vw;
-                            padding-bottom: 0.5vw;
-                        }
-                        
-                        footer {
-                            background-color: #EDECEC;
-                        }
-                        
-                        .footer-upper {
-                            display: flex;
-                            padding-top: 4.5vw;
-                            margin-left: 7.5vw;
-                            margin-right: 5vw;
-                            padding-bottom: 4vw;
-                        }
-                        
-                        .footer-menu {
-                            width: 25%;
-                            flex-direction: column;
-                            flex-wrap: wrap;
-                            list-style: none;
-                            column-count: 1;
-                        }
-                        
-                        .footer-menu-item {
-                            font-family: 'Proxima Nova';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 1.2vw;
-                            color: #333333;
-                            line-height: 2vw;
-                        }
-                        
-                        .footer-menu-item a {
-                            text-decoration: none;
-                            color: #333333
-                        }
-                        
-                        .footer-contacts {
-                            width: 40%;
-                        }
-                        
-                        .our-benefits {
-                            margin-top: 7vw;
-                            align-items: center;
-                            height: 50vw;
-                        }
-                        
-                        .our-benefits-title {
-                            font-size: 4.5vw;
-                            font-weight: 400;
-                            padding-top: 2vw;
-                            text-align: center;
-                            border-bottom: 0.2vw solid #3E6E00;
-                            width: 72.6vw;
-                            margin: auto;
-                            padding-bottom: 4vw;
-                        }
-                        
-                        .our-benefits-block {
-                            display: flex;
-                            justify-content: space-between;
-                            padding-top: 3vw;
-                            align-items: center;
-                            margin: auto;
-                        }
-                        
-                        .our-benefits-items {
-                            width: 30%;
-                            text-align: center;
-                            padding-top: 6vw;
-                            letter-spacing: 0.08em;
-                            color: #333333;
-                            font-weight: 400;
-                            font-size: 2vw;
-                            padding-bottom: 5vw;
-                            line-height: 150%;
-                        }
-                        
-                        .our-benefits-items img {
-                            width: 12vw;
-                            height: 10vw;
-                            padding-bottom: 3vw;
-                        }
-                        
-                        .delivery {
-                            background: #EDECEC;
-                            padding-bottom: 5vw;
-                        }
-                        
-                        .delivery-title {
-                            font-size: 4.5vw;
-                            font-weight: 400;
-                            padding-top: 5vw;
-                            text-align: right;
-                            margin: right;
-                            padding-bottom: 5vw;
-                            padding-right: 2.5vw;
-                        }
-                        
-                        .delivery-title hr {
-                            margin-top: 4vw;
-                            border-bottom: 0.1vw solid #3E6E00;
-                            width: 77vw;
-                        }
-                        
-                        .delivery-item {
-                            display: flex;
-                        }
-                        
-                        .delivery-item-block {
-                            width: 50%;
-                            position: relative;
-                            top: 0;
-                            left: 0;
-                        }
-                        
-                        .delivery-item-text {
-                            width: 50%;
-                            padding-left: 7%;
-                            padding-top: 6%;
-                            padding-bottom: 6%;
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 1.8vw;
-                            line-height: 150%;
-                            color: #3E3F46;
-                            order: 0;
-                            flex-grow: 0;
-                        }
-                        
-                        .image1 {
-                            position: absolute;
-                            top: 10%;
-                            left: 10%;
-                            width: 100%;
-                        }
-                        
-                        .image2 {
-                            width: 100%;
-                            position: relative;
-                            top: 0;
-                            left: 0;
-                        }
-                        
-                        .delivery-item-button {
-                            margin-top: 7vw;
-                            font-weight: 400;
-                            font-size: 1.3vw;
-                            line-height: 2vw;
-                            background-image: url(/images/arrow\ left.svg);
-                            background-repeat: no-repeat;
-                            width: 18vw;
-                            text-align: start;
-                            background-position: right 1.5vw bottom 50%;
-                            padding: 2%;
-                        }
-                        
-                        .import {
-                            margin-top: 5vw;
-                            padding-bottom: 5vw;
-                        }
-                        
-                        .import-title {
-                            padding-top: 4vw;
-                            width: 55vw;
-                            margin: auto;
-                            font-weight: 400;
-                            font-size: 3vw;
-                            line-height: 4.5vw;
-                            text-align: center;
-                            letter-spacing: 0.05em;
-                            text-transform: uppercase;
-                            color: #585858;
-                        }
-                        
-                        .import-text {
-                            font-weight: 400;
-                            font-size: 1.2vw;
-                            line-height: 2vw;
-                            color: #585858;
-                            width: 84vw;
-                            margin-left: auto;
-                            margin-right: auto;
-                            padding-bottom: 5vw;
-                        }
-                        
-                        .import hr {
-                            border: 0.06vw solid #585858;
-                            width: 55vw;
-                            margin: auto;
-                        }
-                        
-                        .footer-contacts {
-                            text-align: center;
-                            width: 25%;
-                        }
-                        
-                        .footer-logo {
-                            font-weight: 600;
-                            font-size: 2.2vw;
-                            line-height: 152.25%;
-                            letter-spacing: 0.03em;
-                            text-transform: uppercase;
-                            font-variant: small-caps;
-                            color: #000000;
-                            padding-bottom: 1.8vw;
-                        }
-                        
-                        .footer-phone {
-                            font-weight: 600;
-                            font-size: 1.85vw;
-                            line-height: 152.25%;
-                            color: #333333;
-                            padding-bottom: 0.5vw;
-                        }
-                        
-                        .footer-email {
-                            font-size: 1.6vw;
-                            line-height: 152.25%;
-                            color: #333333;
-                            padding-bottom: 0.5vw;
-                        }
-                        
-                        .footers-social-networks {
-                            padding-top: 2vw;
-                            margin: auto;
-                            justify-content: space-evenly;
-                            display: flex;
-                            width: 100%;
-                        }
-                        
-                        .footers-social-networks img {
-                            width: 10%;
-                            height: 2.2vw;
-                        }
-                        
-                        .footer-feedback-title {
-                            padding-top: 5vw;
-                            padding-left: 7.5vw;
-                            font-weight: 700;
-                            font-size: 1.5vw;
-                            line-height: 2.3vw;
-                            letter-spacing: 0.03em;
-                            text-transform: uppercase;
-                            color: #333333;
-                        }
-                        
-                        .footer-feedback {
-                            display: flex;
-                            padding: 3vw;
-                        }
-                        
-                        footer hr {
-                            border: 0.06vw solid #000000;
-                            width: 95vw;
-                            margin: auto;
-                        }
-                        
-                        .footer-mailing-subscribe input {
-                            font-weight: 300;
-                            font-size: 1.1vw;
-                            color: #333333;
-                            background: none;
-                            border: none;
-                            border-bottom: 0.06vw solid #3E3F46;
-                            width: 22vw;
-                            margin-bottom: 5vw;
-                            padding: 0.7vw;
-                        }
-                        
-                        .footer-mailing-subscribe button {
-                            font-weight: 600;
-                            font-size: 1vw;
-                            color: #333333;
-                            padding: 0.7vw;
-                            margin-left: 1.8vw;
-                        }
-                        
-                        .footer-mailing-feedback {
-                            display: flex;
-                        }
-                        
-                        .footer-mailing-feedback p {
-                            font-weight: 400;
-                            font-size: 1.2vw;
-                            line-height: 150%;
-                            color: #333333;
-                        }
-                        
-                        .footer-mailing-feedback button {
-                            font-weight: 600;
-                            font-size: 1vw;
-                            color: #333333;
-                            padding: 0.7vw;
-                            margin-left: 4.5vw;
-                            width: 14vw;
-                        }
-                        
-                        .footer-questions {
-                            padding-left: 15%;
-                        }
-                        
-                        .footer-questions p {
-                            font-weight: 400;
-                            font-size: 1.2vw;
-                            line-height: 150%;
-                            color: #333333;
-                            margin-bottom: 0.4vw;
-                        }
-                        
-                        .footer-copyright {
-                            text-align: center;
-                            padding: 1.8vw;
-                            font-size: 1.3vw;
-                        }
-                        
-                        @media screen and (min-width: 769px) and (max-width: 991px) {}
-                        
-                        @media screen and (max-width: 768px) {
-                            .header-info {
-                                display: inline-block;
-                                width: 100%;
-                                height: auto;
-                                flex-wrap: wrap-reverse;
-                            }
-                            .header-input {
-                                width: 100%;
-                            }
-                            .header-logo {
-                                font-size: 6vw;
-                            }
-                            .header-search {
-                                width: 50%;
-                            }
-                            .header-search input {
-                                font-size: 2.5vw;
-                                height: 7vw;
-                            }
-                            .header-search img {
-                                top: 4vw;
-                                left: 90vw;
-                                width: 3vw;
-                            }
-                            .header-contacts {
-                                width: 100%;
-                                padding-top: 2%;
-                                padding-bottom: 2%;
-                            }
-                            .header-phone {
-                                font-size: 3.2vw;
-                            }
-                            .header-phone-text {
-                                display: none;
-                            }
-                            .header-login-text {
-                                font-size: 3.5vw
-                            }
-                            .header-login-image img {
-                                width: 3.5vw
-                            }
-                            .header-language-text {
-                                font-size: 3.5vw;
-                            }
-                            .header-language img {
-                                width: 3vw;
-                            }
-                            .header-menu {
-                                flex-direction: row;
-                                flex-wrap: wrap;
-                                height: auto;
-                            }
-                            .header-menu-item {
-                                flex: 1 1 40%;
-                                text-align: center;
-                                font-size: 4vw;
-                                padding: 4%;
-                                font-weight: 600;
-                            }
-                            .menu-item-image {
-                                width: 3vw;
-                            }
-                            .main {
-                                height: auto;
-                            }
-                            .main-item-first,
-                            .main-item-third {
-                                display: none;
-                            }
-                            .main-item-second {
-                                width: 100%;
-                                padding-bottom: 3vw;
-                            }
-                            .main-item-second-title-block-header {
-                                font-size: 5vw;
-                            }
-                            .main-item-second-title-block-info {
-                                font-size: 3vw;
-                            }
-                            .main-item-second-list-header {
-                                font-size: 4vw;
-                            }
-                            .main-item-second-list-item {
-                                font-size: 3vw
-                            }
-                            .catalogue {
-                                margin-bottom: 2%;
-                            }
-                            .catalogue-header-image img {
-                                width: 10vw;
-                            }
-                            .catalogue-block {
-                                flex-flow: row wrap;
-                                height: auto;
-                                justify-content: space-evenly;
-                                margin-top: auto;
-                            }
-                            .catalogue-block-item-1,
-                            .catalogue-block-item-2,
-                            .catalogue-block-item-3,
-                            .catalogue-block-item-4,
-                            .catalogue-block-item-5,
-                            .catalogue-block-item-6,
-                            .catalogue-block-item-7,
-                            .catalogue-block-item-8 {
-                                width: 45%;
-                                height: 44vw;
-                                padding-bottom: 3%;
-                            }
-                            .catalogue-item-text {
-                                font-size: 3vw;
-                            }
-                            .catalogue-header {
-                                margin-top: 2%;
-                            }
-                            .catalogue-title {
-                                font-weight: 800;
-                                font-size: 8vw;
-                            }
-                            .popular-catalogue {
-                                flex-wrap: wrap;
-                                padding-left: 3%;
-                                padding-right: 3%;
-                            }
-                            .popular-goods-title {
-                                padding-top: 2%;
-                                font-weight: 800;
-                                font-size: 6vw;
-                            }
-                            .popular-goods-item {
-                                width: 48%;
-                            }
-                            .popular-goods-item-image {
-                                height: 30vw;
-                            }
-                            .popular-goods-item-image p {
-                                font-size: 3vw;
-                            }
-                            .popular-goods-item-title {
-                                font-size: 3.5vw;
-                            }
-                            .popular-goods-item-price {
-                                font-size: 2.5vw;
-                                padding-top: 2vw;
-                            }
-                            .popular-goods-item-sellprice {
-                                font-size: 2.5vw;
-                                padding-bottom: 2%;
-                                padding-top: 2%;
-                            }
-                            .popular-goods-item-regularprice {
-                                font-size: 2.5vw;
-                            }
-                            .popular-goods-item-price p span {
-                                font-size: 4vw;
-                            }
-                            .popular-goods-item-sellprice p span {
-                                font-size: 4vw;
-                            }
-                            .popular-goods-item-regularprice p span {
-                                font-size: 3vw;
-                            }
-                            .our-benefits-block {
-                                display: block;
-                            }
-                            .our-benefits-items {
-                                width: auto;
-                                padding-top: 0;
-                                padding-bottom: 2vw;
-                            }
-                            .our-benefits-items img {
-                                width: 20vw;
-                                height: auto;
-                            }
-                            .our-benefits-items p {
-                                font-size: 4vw;
-                            }
-                            .our-benefits {
-                                height: auto;
-                                margin-top: 2%;
-                                padding-bottom: 2%;
-                            }
-                            .our-benefits-title {
-                                padding-bottom: 2vw;
-                                font-weight: 800;
-                                font-size: 6vw;
-                            }
-                            .delivery {
-                                padding-bottom: 2%;
-                            }
-                            .delivery-item {
-                                display: block;
-                            }
-                            .delivery-title {
-                                font-weight: 800;
-                                font-size: 6vw;
-                                padding-top: 2%;
-                                padding-bottom: 2%;
-                            }
-                            .delivery-title hr {
-                                margin-top: 2%;
-                            }
-                            .delivery-item-block {
-                                display: none;
-                            }
-                            .delivery-item-text {
-                                width: 80%;
-                                font-size: 3.5vw;
-                                padding-top: 3%;
-                                padding-bottom: 2%;
-                            }
-                            .delivery-item-button {
-                                line-height: 4vw;
-                                width: 36vw;
-                                font-size: 3vw;
-                                margin-top: 2%;
-                            }
-                            .import-title {
-                                padding-top: 2%;
-                                font-size: 5vw;
-                                font-weight: 800;
-                                width: 90%;
-                                padding-bottom: 2%;
-                            }
-                            .import-text {
-                                font-size: 2.5vw;
-                                line-height: 4vw;
-                                padding-bottom: 2%;
-                            }
-                            .import {
-                                margin-top: 2%;
-                                padding-bottom: 2%;
-                            }
-                            .footer-menu {
-                                display: none
-                            }
-                            .footer-contacts {
-                                width: 100%;
-                            }
-                            .footer-logo {
-                                font-size: 5vw;
-                            }
-                            .footer-phone {
-                                font-size: 3vw;
-                            }
-                            .footer-email {
-                                font-size: 2.8vw;
-                            }
-                            .footers-social-networks img {
-                                width: 40%;
-                                height: 7vw;
-                            }
-                            .footer-upper {
-                                padding: 2%;
-                            }
-                            .footer-questions {
-                                display: none;
-                            }
-                            .footer-mailing {
-                                width: 80%;
-                                margin: auto;
-                            }
-                            .footer-feedback-title {
-                                text-align: center;
-                                font-size: 3vw;
-                            }
-                            .footer-mailing {
-                                text-align: center;
-                            }
-                            .footer-mailing-feedback {
-                                justify-content: center;
-                            }
-                            .footer-mailing-feedback p {
-                                font-size: 2.5vw;
-                            }
-                            .footer-mailing-subscribe input {
-                                font-size: 2.2vw;
-                                width: 40vw;
-                            }
-                            .footer-mailing button {
-                                font-size: 2vw;
-                                width: auto;
-                            }
-                            .footer-copyright {
-                                font-size: 4vw;
-                            }
-                        }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+}
+
+.header-logo {
+    font-weight: 600;
+    font-size: 1.9vw;
+}
+
+.header-search input {
+    background-color: #F5F5F5;
+    border: none;
+    align-items: center;
+    width: 100%;
+    height: 3vw;
+    position: relative;
+}
+
+.header-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    text-indent: 5%;
+}
+
+.header-search input {
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.header-search img {
+    width: 1.8vw;
+    position: absolute;
+    top: 2.7vw;
+    left: 43.5vw;
+}
+
+.header-search {
+    width: 60%;
+}
+
+.header-contacts {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.header-phone {
+    font-size: 1.7vw;
+    color: #585858;
+    font-weight: 400;
+    width: 30%;
+}
+
+.header-enter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.header-phone-text {
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: #585858;
+    width: 35%;
+    border-left: solid 0.06vw #C4C4C4;
+    padding-left: 4%;
+}
+
+.header-login {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    font-size: 1.3vw;
+}
+
+.header-login-image img {
+    width: 1.7vw;
+}
+
+.header-language-image img {
+    width: 1vw;
+}
+
+.header-language {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    align-items: center;
+}
+
+.header-language-text {
+    font-size: 1.3vw;
+    text-decoration: underline;
+}
+
+.header-language img {
+    margin: auto;
+    display: block;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 1.1vw;
+    background-color: #F5F5F5;
+    height: 5vw;
+    align-items: center;
+    line-height: 152.25%;
+}
+
+.menu-item-image {
+    width: 1vw;
+}
+
+.header-menu a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    height: 45.5vw;
+}
+
+.main-item-first {
+    width: 32.5%;
+    background-size: contain;
+    background-blend-mode: darken;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/images/Photo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.main-item-second {
+    width: 35%;
+    background-image: url('../images/Слой 1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-item-third {
+    width: 32.5%;
+    background-size: contain;
+    background-blend-mode: darken;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/images/Bulgur.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.main-item-first-block {
+    text-align: center;
+    color: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    vertical-align: baseline;
+    padding-top: 40%;
+}
+
+.main-item-first-title {
+    font-weight: 700;
+    font-size: 2.3vw;
+}
+
+.main-item-first-price {
+    padding-top: 15%;
+    font-size: 1.8vw;
+    font-weight: 700;
+    width: 100%;
+}
+
+.main-item-first-block button {
+    width: 85%;
+    color: #FFFFFF;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-top: 3vw;
+    background-color: Transparent;
+    border: 0.3vw solid #FFFFFF;
+    font-weight: 700;
+    font-size: 1.9vw;
+}
+
+.main-item-third-block {
+    text-align: center;
+    color: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    vertical-align: baseline;
+    padding-top: 40%;
+}
+
+.main-item-third-title {
+    font-weight: 700;
+    font-size: 2.3vw;
+}
+
+.main-item-third-price {
+    padding-top: 15%;
+    font-size: 1.8vw;
+    font-weight: 700;
+    width: 100%;
+}
+
+.main-item-third-block button {
+    width: 85%;
+    color: #FFFFFF;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-top: 3vw;
+    background-color: Transparent;
+    border: 0.3vw solid #FFFFFF;
+    font-weight: 700;
+    font-size: 1.9vw;
+}
+
+.main-item-second-title-block {
+    text-align: center;
+}
+
+.main-item-second-title-block-header {
+    font-size: 2.8vw;
+    font-weight: 700;
+    margin-top: 5vw;
+}
+
+.main-item-second-title-block-info {
+    color: #585858;
+    font-weight: 600;
+    font-size: 1.5vw;
+    font-style: normal;
+    margin-top: 0.6vw;
+    letter-spacing: 0.06em;
+}
+
+.main-item-second-list-header {
+    margin: auto;
+    margin-top: 3vw;
+    width: 65%;
+    font-weight: 700;
+    font-size: 2vw;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #3E6E00;
+    text-align: center;
+    border-top: 0.2vw solid;
+    padding-top: 3vw;
+}
+
+.main-item-second-list-item {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 2vw;
+}
+
+.main-item-second-list-item li {
+    padding-top: 1.3vw;
+}
+
+.catalogue-title {
+    margin-left: 15%;
+    margin-bottom: 5%;
+    width: 70vw;
+    font-weight: 400;
+    font-size: 4.5vw;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #363637;
+    border-bottom: 0.2vw solid #3E6E00;
+}
+
+.catalogue {
+    margin-bottom: 7%;
+}
+
+.catalogue-header {
+    display: flex;
+    margin-top: 7%;
+}
+
+.catalogue-header-image {
+    margin-left: 7%;
+}
+
+.catalogue-header-image img {
+    width: 7vw;
+}
+
+.catalogue-block {
+    width: 98%;
+    margin-top: 1.4%;
+    padding: 0 1% 0 1%;
+    height: 22vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalogue-block-item-1,
+.catalogue-block-item-2,
+.catalogue-block-item-3,
+.catalogue-block-item-4,
+.catalogue-block-item-5,
+.catalogue-block-item-6,
+.catalogue-block-item-7,
+.catalogue-block-item-8 {
+    width: 24%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.catalogue-block-item-1 {
+    background-image: url('../images/spetii.svg');
+}
+
+.catalogue-block-item-2 {
+    background-image: url('../images/spetsii 2.svg');
+}
+
+.catalogue-block-item-3 {
+    background-image: url('../images/spetsii 3.svg');
+}
+
+.catalogue-block-item-4 {
+    background-image: url('/images/spetsii 4.svg');
+}
+
+.catalogue-block-item-5 {
+    background-image: url('/images/spetsii 5.svg');
+}
+
+.catalogue-block-item-6 {
+    background-image: url('/images/spetsii 6.svg');
+}
+
+.catalogue-block-item-7 {
+    background-image: url('/images/spetsii 7.svg');
+}
+
+.catalogue-block-item-8 {
+    background-image: url('/images/spetsii 8.svg');
+}
+
+.catalogue-item-text {
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    color: #333333;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+}
+
+.popular-goods {
+    background: #F5F5F5;
+    padding-bottom: 5vw;
+}
+
+.popular-goods-item-price p span {
+    font-size: 2vw;
+}
+
+.popular-goods-item-sellprice p span {
+    font-size: 2vw;
+}
+
+.popular-goods-item-regularprice p span {
+    font-size: 1.5vw;
+}
+
+.popular-goods-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 4.5vw;
+    align-items: center;
+    text-transform: uppercase;
+    color: #333333;
+    padding-top: 5%;
+    padding-left: 3.5vw;
+    padding-right: 2vw;
+}
+
+.popular-goods-title img {
+    width: 1.5vw;
+}
+
+.popular-goods hr {
+    border: 0.06vw solid #3E6E00;
+    margin-left: 30%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.popular-goods-title p {
+    width: 90%;
+}
+
+.popular-catalogue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-goods-item {
+    width: 23%;
+    background-color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+.popular-goods-item-title {
+    font-weight: 700;
+    font-size: 1.8vw;
+    text-align: center;
+    color: #333333;
+    padding-top: 2vw;
+}
+
+.popular-goods-item-image {
+    background-image: url('/images/gir4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    height: 15vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.popular-goods-item-image p {
+    background-color: #FFFFFF;
+    transform: rotate(-45deg);
+    text-align: center;
+    width: 50%;
+    left: -10%;
+    top: 17%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+
+.popular-goods-item-favourites {
+    background: rgba(255, 255, 255, 0.6);
+    align-items: center;
+    width: 2vw;
+    align-items: center;
+    margin-right: 1vw;
+    margin-left: auto;
+    margin-top: 1vw;
+    padding: 3%;
+}
+
+.popular-goods-item-favourites img {
+    display: block;
+    width: 100%;
+}
+
+.popular-goods-item-price {
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-align: center;
+    color: #3E6E00;
+    margin-top: 1.9vw;
+}
+
+.popular-goods-item-sellprice {
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-align: center;
+    color: #F23030;
+    margin-top: 0.7vw;
+}
+
+.popular-goods-item-regularprice {
+    margin-top: 0.5vw;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+    text-decoration-line: line-through;
+}
+
+.popular-goods-item button {
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    color: #585858;
+    width: 13vw;
+    background-color: #FFFFFF;
+    border: 0.08vw solid #585858;
+    padding-top: 0.3vw;
+    padding-bottom: 0.5vw;
+}
+
+footer {
+    background-color: #EDECEC;
+}
+
+.footer-upper {
+    display: flex;
+    padding-top: 4.5vw;
+    margin-left: 7.5vw;
+    margin-right: 5vw;
+    padding-bottom: 4vw;
+}
+
+.footer-menu {
+    width: 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    column-count: 1;
+}
+
+.footer-menu-item {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #333333;
+    line-height: 2vw;
+}
+
+.footer-menu-item a {
+    text-decoration: none;
+    color: #333333
+}
+
+.footer-contacts {
+    width: 40%;
+}
+
+.our-benefits {
+    margin-top: 7vw;
+    align-items: center;
+    height: 50vw;
+}
+
+.our-benefits-title {
+    font-size: 4.5vw;
+    font-weight: 400;
+    padding-top: 2vw;
+    text-align: center;
+    border-bottom: 0.2vw solid #3E6E00;
+    width: 72.6vw;
+    margin: auto;
+    padding-bottom: 4vw;
+}
+
+.our-benefits-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vw;
+    align-items: center;
+    margin: auto;
+}
+
+.our-benefits-items {
+    width: 30%;
+    text-align: center;
+    padding-top: 6vw;
+    letter-spacing: 0.08em;
+    color: #333333;
+    font-weight: 400;
+    font-size: 2vw;
+    padding-bottom: 5vw;
+    line-height: 150%;
+}
+
+.our-benefits-items img {
+    width: 12vw;
+    height: 10vw;
+    padding-bottom: 3vw;
+}
+
+.delivery {
+    background: #EDECEC;
+    padding-bottom: 5vw;
+}
+
+.delivery-title {
+    font-size: 4.5vw;
+    font-weight: 400;
+    padding-top: 5vw;
+    text-align: right;
+    margin: right;
+    padding-bottom: 5vw;
+    padding-right: 2.5vw;
+}
+
+.delivery-title hr {
+    margin-top: 4vw;
+    border-bottom: 0.1vw solid #3E6E00;
+    width: 77vw;
+}
+
+.delivery-item {
+    display: flex;
+}
+
+.delivery-item-block {
+    width: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.delivery-item-text {
+    width: 50%;
+    padding-left: 7%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 150%;
+    color: #3E3F46;
+    order: 0;
+    flex-grow: 0;
+}
+
+.image1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 100%;
+}
+
+.image2 {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.delivery-item-button {
+    margin-top: 7vw;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 2vw;
+    background-image: url(/images/arrow\ left.svg);
+    background-repeat: no-repeat;
+    width: 18vw;
+    text-align: start;
+    background-position: right 1.5vw bottom 50%;
+    padding: 2%;
+}
+
+.import {
+    margin-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.import-title {
+    padding-top: 4vw;
+    width: 55vw;
+    margin: auto;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 4.5vw;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #585858;
+}
+
+.import-text {
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    color: #585858;
+    width: 84vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5vw;
+}
+
+.import hr {
+    border: 0.06vw solid #585858;
+    width: 55vw;
+    margin: auto;
+}
+
+.footer-contacts {
+    text-align: center;
+    width: 25%;
+}
+
+.footer-logo {
+    font-weight: 600;
+    font-size: 2.2vw;
+    line-height: 152.25%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    color: #000000;
+    padding-bottom: 1.8vw;
+}
+
+.footer-phone {
+    font-weight: 600;
+    font-size: 1.85vw;
+    line-height: 152.25%;
+    color: #333333;
+    padding-bottom: 0.5vw;
+}
+
+.footer-email {
+    font-size: 1.6vw;
+    line-height: 152.25%;
+    color: #333333;
+    padding-bottom: 0.5vw;
+}
+
+.footers-social-networks {
+    padding-top: 2vw;
+    margin: auto;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+
+.footers-social-networks img {
+    width: 10%;
+    height: 2.2vw;
+}
+
+.footer-feedback-title {
+    padding-top: 5vw;
+    padding-left: 7.5vw;
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.footer-feedback {
+    display: flex;
+    padding: 3vw;
+}
+
+footer hr {
+    border: 0.06vw solid #000000;
+    width: 95vw;
+    margin: auto;
+}
+
+.footer-mailing-subscribe input {
+    font-weight: 300;
+    font-size: 1.1vw;
+    color: #333333;
+    background: none;
+    border: none;
+    border-bottom: 0.06vw solid #3E3F46;
+    width: 22vw;
+    margin-bottom: 5vw;
+    padding: 0.7vw;
+}
+
+.footer-mailing-subscribe button {
+    font-weight: 600;
+    font-size: 1vw;
+    color: #333333;
+    padding: 0.7vw;
+    margin-left: 1.8vw;
+}
+
+.footer-mailing-feedback {
+    display: flex;
+}
+
+.footer-mailing-feedback p {
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 150%;
+    color: #333333;
+}
+
+.footer-mailing-feedback button {
+    font-weight: 600;
+    font-size: 1vw;
+    color: #333333;
+    padding: 0.7vw;
+    margin-left: 4.5vw;
+    width: 14vw;
+}
+
+.footer-questions {
+    padding-left: 15%;
+}
+
+.footer-questions p {
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 150%;
+    color: #333333;
+    margin-bottom: 0.4vw;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 1.8vw;
+    font-size: 1.3vw;
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {}
+
+@media screen and (max-width: 768px) {
+    .header-info {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap-reverse;
+    }
+    .header-input {
+        width: 100%;
+    }
+    .header-logo {
+        font-size: 6vw;
+    }
+    .header-search {
+        width: 50%;
+    }
+    .header-search input {
+        font-size: 2.5vw;
+        height: 7vw;
+    }
+    .header-search img {
+        top: 4vw;
+        left: 90vw;
+        width: 3vw;
+    }
+    .header-contacts {
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .header-phone {
+        font-size: 3.2vw;
+    }
+    .header-phone-text {
+        display: none;
+    }
+    .header-login-text {
+        font-size: 3.5vw
+    }
+    .header-login-image img {
+        width: 3.5vw
+    }
+    .header-language-text {
+        font-size: 3.5vw;
+    }
+    .header-language img {
+        width: 3vw;
+    }
+    .header-menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .header-menu-item {
+        flex: 1 1 40%;
+        text-align: center;
+        font-size: 4vw;
+        padding: 4%;
+        font-weight: 600;
+    }
+    .menu-item-image {
+        width: 3vw;
+    }
+    .main {
+        height: auto;
+    }
+    .main-item-first,
+    .main-item-third {
+        display: none;
+    }
+    .main-item-second {
+        width: 100%;
+        padding-bottom: 3vw;
+    }
+    .main-item-second-title-block-header {
+        font-size: 5vw;
+    }
+    .main-item-second-title-block-info {
+        font-size: 3vw;
+    }
+    .main-item-second-list-header {
+        font-size: 4vw;
+    }
+    .main-item-second-list-item {
+        font-size: 3vw
+    }
+    .catalogue {
+        margin-bottom: 2%;
+    }
+    .catalogue-header-image img {
+        width: 10vw;
+    }
+    .catalogue-block {
+        flex-flow: row wrap;
+        height: auto;
+        justify-content: space-evenly;
+        margin-top: auto;
+    }
+    .catalogue-block-item-1,
+    .catalogue-block-item-2,
+    .catalogue-block-item-3,
+    .catalogue-block-item-4,
+    .catalogue-block-item-5,
+    .catalogue-block-item-6,
+    .catalogue-block-item-7,
+    .catalogue-block-item-8 {
+        width: 45%;
+        height: 44vw;
+        padding-bottom: 3%;
+    }
+    .catalogue-item-text {
+        font-size: 3vw;
+    }
+    .catalogue-header {
+        margin-top: 2%;
+    }
+    .catalogue-title {
+        font-weight: 800;
+        font-size: 8vw;
+    }
+    .popular-catalogue {
+        flex-wrap: wrap;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .popular-goods-title {
+        padding-top: 2%;
+        font-weight: 800;
+        font-size: 6vw;
+    }
+    .popular-goods-item {
+        width: 48%;
+    }
+    .popular-goods-item-image {
+        height: 30vw;
+    }
+    .popular-goods-item-image p {
+        font-size: 3vw;
+    }
+    .popular-goods-item-title {
+        font-size: 3.5vw;
+    }
+    .popular-goods-item-price {
+        font-size: 2.5vw;
+        padding-top: 2vw;
+    }
+    .popular-goods-item-sellprice {
+        font-size: 2.5vw;
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+    .popular-goods-item-regularprice {
+        font-size: 2.5vw;
+    }
+    .popular-goods-item-price p span {
+        font-size: 4vw;
+    }
+    .popular-goods-item-sellprice p span {
+        font-size: 4vw;
+    }
+    .popular-goods-item-regularprice p span {
+        font-size: 3vw;
+    }
+    .our-benefits-block {
+        display: block;
+    }
+    .our-benefits-items {
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 2vw;
+    }
+    .our-benefits-items img {
+        width: 20vw;
+        height: auto;
+    }
+    .our-benefits-items p {
+        font-size: 4vw;
+    }
+    .our-benefits {
+        height: auto;
+        margin-top: 2%;
+        padding-bottom: 2%;
+    }
+    .our-benefits-title {
+        padding-bottom: 2vw;
+        font-weight: 800;
+        font-size: 6vw;
+    }
+    .delivery {
+        padding-bottom: 2%;
+    }
+    .delivery-item {
+        display: block;
+    }
+    .delivery-title {
+        font-weight: 800;
+        font-size: 6vw;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .delivery-title hr {
+        margin-top: 2%;
+    }
+    .delivery-item-block {
+        display: none;
+    }
+    .delivery-item-text {
+        width: 80%;
+        font-size: 3.5vw;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+    .delivery-item-button {
+        line-height: 4vw;
+        width: 36vw;
+        font-size: 3vw;
+        margin-top: 2%;
+    }
+    .import-title {
+        padding-top: 2%;
+        font-size: 5vw;
+        font-weight: 800;
+        width: 90%;
+        padding-bottom: 2%;
+    }
+    .import-text {
+        font-size: 2.5vw;
+        line-height: 4vw;
+        padding-bottom: 2%;
+    }
+    .import {
+        margin-top: 2%;
+        padding-bottom: 2%;
+    }
+    .footer-menu {
+        display: none
+    }
+    .footer-contacts {
+        width: 100%;
+    }
+    .footer-logo {
+        font-size: 5vw;
+    }
+    .footer-phone {
+        font-size: 3vw;
+    }
+    .footer-email {
+        font-size: 2.8vw;
+    }
+    .footers-social-networks img {
+        width: 40%;
+        height: 7vw;
+    }
+    .footer-upper {
+        padding: 2%;
+    }
+    .footer-questions {
+        display: none;
+    }
+    .footer-mailing {
+        width: 80%;
+        margin: auto;
+    }
+    .footer-feedback-title {
+        text-align: center;
+        font-size: 3vw;
+    }
+    .footer-mailing {
+        text-align: center;
+    }
+    .footer-mailing-feedback {
+        justify-content: center;
+    }
+    .footer-mailing-feedback p {
+        font-size: 2.5vw;
+    }
+    .footer-mailing-subscribe input {
+        font-size: 2.2vw;
+        width: 40vw;
+    }
+    .footer-mailing button {
+        font-size: 2vw;
+        width: auto;
+    }
+    .footer-copyright {
+        font-size: 4vw;
+    }
+}
