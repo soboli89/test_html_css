@@ -147,14 +147,14 @@
     width: 32.5%;
     background-size: contain;
     background-blend-mode: darken;
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/images/MaskGroup.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../images/MaskGroup.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .main-item-second {
     width: 35%;
-    background-image: url('../images/Слой 1.svg');
+    background-image: url('../images/Layout.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -164,7 +164,7 @@
     width: 32.5%;
     background-size: contain;
     background-blend-mode: darken;
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/images/Bulgur.png');
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../images/Bulgur.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -349,11 +349,11 @@
 }
 
 .catalogue-block-item-4 {
-    background-image: url('/images/spetsii 4.svg');
+    background-image: url('../images/spetsii 4.svg');
 }
 
 .catalogue-block-item-5 {
-    background-image: url('/images/spetsii 5.svg');
+    background-image: url('../images/spetsii 5.svg');
 }
 
 .catalogue-block-item-6 {
@@ -361,11 +361,11 @@
 }
 
 .catalogue-block-item-7 {
-    background-image: url('/images/spetsii 7.svg');
+    background-image: url('../images/spetsii 7.svg');
 }
 
 .catalogue-block-item-8 {
-    background-image: url('/images/spetsii 8.svg');
+    background-image: url('../images/spetsii 8.svg');
 }
 
 .catalogue-item-text {
@@ -449,7 +449,7 @@
 }
 
 .popular-goods-item-image {
-    background-image: url('/images/gir4.png');
+    background-image: url('../images/gir4.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 100%;
@@ -669,7 +669,7 @@ footer {
     font-weight: 400;
     font-size: 1.3vw;
     line-height: 2vw;
-    background-image: url(/images/arrow\ left.svg);
+    background-image: url('../images/arrowleft.svg');
     background-repeat: no-repeat;
     width: 18vw;
     text-align: start;
